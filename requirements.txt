@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+langchain-core
+chromadb
+pdfplumber
+streamlit
+python-dotenv
+fastapi
+uvicorn
+python-multipart
