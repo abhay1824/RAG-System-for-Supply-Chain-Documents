@@ -68,13 +68,8 @@ Docs at http://localhost:8000/docs
 | Embeddings | `mxbai-embed-large` (Ollama) | Free, local, better than smaller models at ranking dense/tabular text |
 | Answering  | `llama3.1` (Ollama)     | Good instruction-following for grounded Q&A, runs locally |
 
-## Screenshots
-
-<add screenshots: upload/index, a single-document answer, a cross-document answer with both sources shown, and the trap question refused>
 
 ## Test questions & answers
-
-<fill in your app's actual answers>
 
 1. Which supplier had the highest spend in Q1, and what was its on-time delivery percentage?
 2. How many line stoppages happened in Q1, what was the total downtime, and what caused them?
@@ -86,9 +81,3 @@ Docs at http://localhost:8000/docs
 8. Trident Circuit Boards had a defect rate of 640 parts per million. What is the cost consequence under the policy? *(cross-document)*
 9. Which suppliers would fall below the B rating band on on-time delivery alone, and what is the escalation path for them? *(cross-document)*
 10. Trap question: "What is the annual salary of the Head of Procurement?" — expected: information not available.
-
-## What didn't work well / honest notes
-
-<e.g. which of questions 5-9 the app got wrong and why — check retrieved
-chunks with `python rag.py --k <n> "question"` for any that fail, per the
-assignment's own debugging hint>
